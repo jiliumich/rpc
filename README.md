@@ -57,3 +57,4 @@ python3 -m unittest -v
 - Server tracebacks are logged but not exposed as client results.
 
 For production, replace `SharedStorage` with a broker or durable queue that provides atomic consumption and visibility leases.
+# rpc
